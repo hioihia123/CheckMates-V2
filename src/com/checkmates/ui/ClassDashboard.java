@@ -89,6 +89,8 @@ import javax.swing.table.TableRowSorter;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.checkmates.model.Professor;
+import com.checkmates.ui.components.FancyHoverButton;
 
 public class ClassDashboard extends JFrame {
 
@@ -333,25 +335,25 @@ public class ClassDashboard extends JFrame {
     
 
         // Add Class button
-        form.FancyHoverButton addButton = new form.FancyHoverButton("Add");
+        FancyHoverButton addButton = new FancyHoverButton("Add");
         addButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         addButton.addActionListener(e -> addNewClass());
         buttonPanel.add(addButton);
 
         // Edit Class button
-        form.FancyHoverButton editButton = new form.FancyHoverButton("Edit");
+        FancyHoverButton editButton = new FancyHoverButton("Edit");
         editButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         editButton.addActionListener(e -> editSelectedClass());
         buttonPanel.add(editButton);
 
         // Delete Class button
-        form.FancyHoverButton deleteButton = new form.FancyHoverButton("Delete ");
+        FancyHoverButton deleteButton = new FancyHoverButton("Delete ");
         deleteButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         deleteButton.addActionListener(e -> deleteSelectedClass());
         buttonPanel.add(deleteButton);
 
         // Refresh button
-        form.FancyHoverButton refreshButton = new form.FancyHoverButton("Refresh");
+        FancyHoverButton refreshButton = new FancyHoverButton("Refresh");
         refreshButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         refreshButton.addActionListener(e -> loadClassesForProfessor());
         buttonPanel.add(refreshButton);

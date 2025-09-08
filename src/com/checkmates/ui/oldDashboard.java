@@ -102,6 +102,9 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import org.json.JSONObject;
 
+import com.checkmates.model.Professor;
+import com.checkmates.main.Login;
+
 public class oldDashboard extends javax.swing.JFrame {
 
     private Professor professor;

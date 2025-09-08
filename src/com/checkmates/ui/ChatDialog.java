@@ -56,6 +56,12 @@ import javax.swing.border.EmptyBorder;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.checkmates.model.Professor;
+import com.checkmates.ai.ChatProcess;
+import com.checkmates.ui.components.HintTextField;
+import com.checkmates.ui.components.FancyHoverButton;
+import com.checkmates.ui.components.ModernScrollBarUI;
+
 
 public class ChatDialog extends JDialog {
     private final JTextArea chatArea;
@@ -178,7 +184,7 @@ public class ChatDialog extends JDialog {
          ));
        
        // Create arrow up button instead of a send button
-       sendButton = new form.FancyHoverButton("\u2191"); // Unix code for up arrow
+       sendButton = new FancyHoverButton("\u2191"); // Unix code for up arrow
        sendButton.setFont(new Font("SansSerif", Font.BOLD, 18));
        sendButton.setBackground(new Color(255, 255, 255));
        //sendButton.setForeground(Color.WHITE);

@@ -74,6 +74,10 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import org.json.JSONObject;
 
+import com.checkmates.ui.components.HintTextField;
+import com.checkmates.ui.components.HintPasswordField;
+import com.checkmates.main.Login;
+
 
 
 public class SignUp extends JFrame {

@@ -88,6 +88,10 @@ import javax.swing.table.TableRowSorter;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.checkmates.ui.components.FancyHoverButton2;
+import com.checkmates.ui.components.FancyHoverButton;
+
+
 public class AttendanceDashboard extends JFrame {
     private int classId;
     private JTable recordsTable;
@@ -296,19 +300,19 @@ public class AttendanceDashboard extends JFrame {
         buttonPanel.setBackground(Color.WHITE);
 
         // Add Student button
-        form.FancyHoverButton addButton = new form.FancyHoverButton("Add");
+        FancyHoverButton addButton = new FancyHoverButton("Add");
         addButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         addButton.addActionListener(e -> addNewStudent());
         buttonPanel.add(addButton);
 
         // Edit Student button
-        form.FancyHoverButton editButton = new form.FancyHoverButton("Edit");
+        FancyHoverButton editButton = new FancyHoverButton("Edit");
         editButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         editButton.addActionListener(e -> editSelectedStudent());
         buttonPanel.add(editButton);
 
         // Delete Student button
-        form.FancyHoverButton deleteButton = new form.FancyHoverButton("Delete");
+        FancyHoverButton deleteButton = new FancyHoverButton("Delete");
         deleteButton.setFont(new Font("Segoe UI", Font.BOLD, 16));
         deleteButton.addActionListener(e -> deleteSelectedStudent());
         buttonPanel.add(deleteButton);
