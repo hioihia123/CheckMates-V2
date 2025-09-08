@@ -110,6 +110,20 @@ import org.json.JSONObject;
  *
  * @author nguyenp
  */
+import com.checkmates.ai.ChatProcess;
+import com.checkmates.model.Professor;
+import com.checkmates.main.Login;
+import com.checkmates.ui.components.FancyHoverButton;
+import com.checkmates.ui.components.FancyHoverButton2;
+import com.checkmates.ui.components.FancyHoverButton3;
+import com.checkmates.ui.components.ModernSeparator;
+import com.checkmates.ui.components.ModernButton;
+import com.checkmates.ui.components.FancyLogoPanel;
+import com.checkmates.ui.components.GradientPanel;
+
+
+
+
 
 public class Dashboard extends javax.swing.JFrame {
 
