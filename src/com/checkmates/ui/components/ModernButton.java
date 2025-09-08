@@ -26,7 +26,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 
-class ModernButton extends JButton {
+public class ModernButton extends JButton {
     private Color normalColor = Color.BLACK;
     private Color hoverColor = new Color(30, 144, 255); // DodgerBlue
     private Color noteHoverColor = new Color(0,100,0); //Dark Green

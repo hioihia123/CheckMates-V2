@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/components/ModernSeparator.java</file>
-            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/components/WrapLayout.java</file>
+            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/components/GradientPanel.java</file>
+            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/components/ModernButton.java</file>
+            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/ClassDashboard.java</file>
+            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/Dashboard.java</file>
             <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/oldDashboard.java</file>
+            <file>file:/Users/nguyenp/Documents/CheckMates_Application_Official/src/com/checkmates/ui/SignUp.java</file>
         </group>
     </open-files>
 </project-private>
