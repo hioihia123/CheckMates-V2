@@ -56,7 +56,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 
-
+import com.checkmates.ui.ChatDialog;
 
 public class ChatProcess {
     
@@ -264,8 +264,8 @@ public class ChatProcess {
         var classes = fetchAllClasses(professorId);
         StringBuilder agg = new StringBuilder();
         for (var cl : classes) {
-            agg.append("Class: ").append(cl.display).append("\n");
-            agg.append(getAttendanceSummary(cl.id)).append("\n\n");
+            agg.append("Class: ").append(cl.getDisplay()).append("\n");
+            agg.append(getAttendanceSummary(cl.getID())).append("\n\n");
         }
 
         // Ask ChatGPT to summarize and analyze
@@ -292,8 +292,8 @@ public class ChatProcess {
         var classes = fetchAllClasses(professorId);
         StringBuilder agg = new StringBuilder();
         for (var cl : classes) {
-            agg.append("Class: ").append(cl.display).append("\n");
-            agg.append(getAttendanceSummary(cl.id)).append("\n\n");
+            agg.append("Class: ").append(cl.getDisplay()).append("\n");
+            agg.append(getAttendanceSummary(cl.getID())).append("\n\n");
         }
 
         // Ask ChatGPT to summarize and analyze
