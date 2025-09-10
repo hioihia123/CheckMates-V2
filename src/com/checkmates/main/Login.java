@@ -64,7 +64,11 @@ import javax.swing.UIManager;
 import org.json.JSONObject;
 
 
-
+import com.checkmates.ui.components.OutlinedTextCanvas;
+import com.checkmates.ui.Dashboard;
+import com.checkmates.model.Professor;
+import com.checkmates.ui.components.FancyHoverButton;
+import com.checkmates.ui.SignUp;
 /**
  *
  * @author nguyenp

@@ -71,7 +71,11 @@ import javax.swing.border.EmptyBorder;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-
+import com.checkmates.model.Professor;
+import com.checkmates.ui.components.ModernButton;
+import com.checkmates.ui.components.ModernScrollBarUI;
+import com.checkmates.ui.components.WrapLayout;
+import com.checkmates.ui.components.FancyHoverButton;
 
 /**
  *sticky note" style panels in Java Swing
