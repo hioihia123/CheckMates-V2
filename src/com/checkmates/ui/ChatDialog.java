@@ -352,6 +352,12 @@ public class ChatDialog extends JDialog {
         public String toString() {
             return display;
         }
+        public int getID(){
+            return id;
+        }
+        public String getDisplay(){
+            return  display;
+        }
     }
     
     public static void main(String[] args) {
